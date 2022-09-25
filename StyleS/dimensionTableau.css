@@ -1,0 +1,54 @@
+.div-table
+{
+    overflow-y:scroll;
+    height:510px;
+    width:1100px;
+}
+
+table
+{
+    border-collapse: collapse;
+    box-shadow: 0 5px 10px #a8a8a8;
+    background-color: white;
+    text-align:left;
+    overflow:scroll;
+    width:100%;
+}
+thead
+{
+    box-shadow: 0 5px 10px #a8a8a8;
+    text-transform: uppercase;
+}
+td, th
+{
+    border-left:1px solid rgb(190, 190, 190);
+    border-right:1px solid rgb(175, 175, 175);
+}
+
+th
+{
+    position:sticky;
+    top:0;
+    letter-spacing: 0.1rem;
+    font-size:14px;
+    font-weight:900;
+    z-index:1;
+}
+
+td
+{ 
+    /*CA DEPEND DU TABLEAU PENSIONNAIRE CHEMISE DOSSIER OU BON DE CAISSE
+    width:25%;*/
+}
+
+table a
+{
+    text-decoration: none;
+    color: #2962ff;
+}
+
+tr:nth-child( even )
+{
+    background-color: rgb(236, 236, 236);
+}
+

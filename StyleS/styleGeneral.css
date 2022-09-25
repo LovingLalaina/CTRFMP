@@ -1,0 +1,29 @@
+body
+{
+    font-family: 'Source code pro' , Calibri , serif;
+    font-size:17px;
+    margin: 0px;
+    padding: 0px;
+}
+
+section
+{
+    margin-top:10px;
+}
+
+/*---------------MODAL---------------*/
+.w3-label{
+    color: #557174;
+}
+.OuvrirModal
+{
+    display:none;
+}
+
+.chemise
+{
+    border-radius: 0.2rem;
+    padding:0.2rem 1rem;
+    text-align:center;
+    font-size: 18px;
+}
